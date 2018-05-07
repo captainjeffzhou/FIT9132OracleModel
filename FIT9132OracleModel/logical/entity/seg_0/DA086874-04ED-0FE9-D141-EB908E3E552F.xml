@@ -1,0 +1,98 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="DA086874-04ED-0FE9-D141-EB908E3E552F" name="Speak_Language">
+<createdBy>CPZHOUCHENG</createdBy>
+<createdTime>2016-05-30 04:18:53 UTC</createdTime>
+<ownerDesignName>FIT9132OracleModel</ownerDesignName>
+<importedID>B8A97AFF-24AA-7CE0-7BC1-2711095E3481</importedID>
+<engineerTo>
+<item key="1E200872-3093-9335-05CF-693F0813BD1B" value="true"/>
+<item key="7285038B-431C-BB99-5045-CC86D47872E7" value="true"/>
+<item key="0F7B6AF3-C450-67A7-3AB7-53DAA05C482F" value="true"/>
+<item key="7D6DAAA6-5645-6D84-E9EB-E7820FB02B58" value="true"/>
+<item key="668FDCA4-05F1-3B79-A761-1D17606A4923" value="true"/>
+<item key="93CAFDFC-2C83-0F05-1A6F-705A21201580" value="true"/>
+<item key="84E17D33-E0EA-18EF-B8F5-A6D65083BEE4" value="true"/>
+<item key="B6668DAD-0DDD-CE12-B2E4-86F96F647FF1" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Driver_ID" id="D6E4DAC8-73B7-0681-C423-88A171080D9C">
+<createdBy>CPZHOUCHENG</createdBy>
+<createdTime>2016-05-30 04:18:53 UTC</createdTime>
+<commentInRDBMS>Every driver has a unique ID</commentInRDBMS>
+<generatorID>C98DD989-1090-002F-6E38-13D87A145ADC</generatorID>
+<ownerDesignName>FIT9132OracleModel</ownerDesignName>
+<importedID>6E88EBD9-46E4-27C4-4244-A4429CF086EA</importedID>
+<engineerTo>
+<item key="1E200872-3093-9335-05CF-693F0813BD1B" value="true"/>
+<item key="7285038B-431C-BB99-5045-CC86D47872E7" value="true"/>
+<item key="0F7B6AF3-C450-67A7-3AB7-53DAA05C482F" value="true"/>
+<item key="7D6DAAA6-5645-6D84-E9EB-E7820FB02B58" value="true"/>
+<item key="668FDCA4-05F1-3B79-A761-1D17606A4923" value="true"/>
+<item key="93CAFDFC-2C83-0F05-1A6F-705A21201580" value="true"/>
+<item key="84E17D33-E0EA-18EF-B8F5-A6D65083BEE4" value="true"/>
+<item key="B6668DAD-0DDD-CE12-B2E4-86F96F647FF1" value="true"/>
+</engineerTo>
+<referedAttribute>C9B8904F-1BF1-97F2-556A-73684AE63249</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<ownDataTypeParameters>,7,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Language_Code" id="39085869-AE15-267A-8EB8-BD25621E7CA4">
+<createdBy>CPZHOUCHENG</createdBy>
+<createdTime>2016-05-30 04:18:53 UTC</createdTime>
+<commentInRDBMS>Every language use the ISO639-1 two-character language code,it&apos;s unique</commentInRDBMS>
+<generatorID>F8AD9CDA-2D88-B2B2-5806-277A5DBFF59F</generatorID>
+<ownerDesignName>FIT9132OracleModel</ownerDesignName>
+<importedID>4CC352CB-5B05-C521-5DB9-8D0777C51579</importedID>
+<engineerTo>
+<item key="1E200872-3093-9335-05CF-693F0813BD1B" value="true"/>
+<item key="7285038B-431C-BB99-5045-CC86D47872E7" value="true"/>
+<item key="0F7B6AF3-C450-67A7-3AB7-53DAA05C482F" value="true"/>
+<item key="7D6DAAA6-5645-6D84-E9EB-E7820FB02B58" value="true"/>
+<item key="668FDCA4-05F1-3B79-A761-1D17606A4923" value="true"/>
+<item key="93CAFDFC-2C83-0F05-1A6F-705A21201580" value="true"/>
+<item key="84E17D33-E0EA-18EF-B8F5-A6D65083BEE4" value="true"/>
+<item key="B6668DAD-0DDD-CE12-B2E4-86F96F647FF1" value="true"/>
+</engineerTo>
+<referedAttribute>F25862D0-95B7-323F-F72E-8A771A293D09</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>3</dataTypeSize>
+<ownDataTypeParameters>3,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="8C72FFB7-30C3-EF71-E31C-97F786D938A8" name="Speak_Language PK">
+<createdBy>CPZHOUCHENG</createdBy>
+<createdTime>2016-05-30 04:18:53 UTC</createdTime>
+<ownerDesignName>FIT9132OracleModel</ownerDesignName>
+<importedID>5E1A53CA-E4C5-F5BC-1D06-8BB491BB6C65</importedID>
+<engineerTo>
+<item key="1E200872-3093-9335-05CF-693F0813BD1B" value="true"/>
+<item key="7285038B-431C-BB99-5045-CC86D47872E7" value="true"/>
+<item key="0F7B6AF3-C450-67A7-3AB7-53DAA05C482F" value="true"/>
+<item key="7D6DAAA6-5645-6D84-E9EB-E7820FB02B58" value="true"/>
+<item key="668FDCA4-05F1-3B79-A761-1D17606A4923" value="true"/>
+<item key="93CAFDFC-2C83-0F05-1A6F-705A21201580" value="true"/>
+<item key="84E17D33-E0EA-18EF-B8F5-A6D65083BEE4" value="true"/>
+<item key="B6668DAD-0DDD-CE12-B2E4-86F96F647FF1" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>D6E4DAC8-73B7-0681-C423-88A171080D9C</attributeRef>
+<attributeRef>39085869-AE15-267A-8EB8-BD25621E7CA4</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

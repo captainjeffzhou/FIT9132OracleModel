@@ -1,0 +1,224 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="0E5B4944-C53F-4A62-17DA-C609BC67E004" name="Driver">
+<createdBy>CPZHOUCHENG</createdBy>
+<createdTime>2016-05-30 04:18:53 UTC</createdTime>
+<ownerDesignName>FIT9132OracleModel</ownerDesignName>
+<importedID>81A2B66C-0F23-570D-421D-B10C32E40981</importedID>
+<engineerTo>
+<item key="1E200872-3093-9335-05CF-693F0813BD1B" value="true"/>
+<item key="7285038B-431C-BB99-5045-CC86D47872E7" value="true"/>
+<item key="0F7B6AF3-C450-67A7-3AB7-53DAA05C482F" value="true"/>
+<item key="7D6DAAA6-5645-6D84-E9EB-E7820FB02B58" value="true"/>
+<item key="668FDCA4-05F1-3B79-A761-1D17606A4923" value="true"/>
+<item key="93CAFDFC-2C83-0F05-1A6F-705A21201580" value="true"/>
+<item key="84E17D33-E0EA-18EF-B8F5-A6D65083BEE4" value="true"/>
+<item key="B6668DAD-0DDD-CE12-B2E4-86F96F647FF1" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Driver_ID" id="C9B8904F-1BF1-97F2-556A-73684AE63249">
+<createdBy>CPZHOUCHENG</createdBy>
+<createdTime>2016-05-30 04:18:53 UTC</createdTime>
+<commentInRDBMS>Every driver has a unique ID</commentInRDBMS>
+<ownerDesignName>FIT9132OracleModel</ownerDesignName>
+<importedID>A8EDCFB2-3B25-F63E-9AB6-EDC50736F12C</importedID>
+<engineerTo>
+<item key="1E200872-3093-9335-05CF-693F0813BD1B" value="true"/>
+<item key="7285038B-431C-BB99-5045-CC86D47872E7" value="true"/>
+<item key="0F7B6AF3-C450-67A7-3AB7-53DAA05C482F" value="true"/>
+<item key="7D6DAAA6-5645-6D84-E9EB-E7820FB02B58" value="true"/>
+<item key="668FDCA4-05F1-3B79-A761-1D17606A4923" value="true"/>
+<item key="93CAFDFC-2C83-0F05-1A6F-705A21201580" value="true"/>
+<item key="84E17D33-E0EA-18EF-B8F5-A6D65083BEE4" value="true"/>
+<item key="B6668DAD-0DDD-CE12-B2E4-86F96F647FF1" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<ownDataTypeParameters>,7,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Driver_Fname" id="52329674-397A-623B-D460-1CA8ABB375AB">
+<createdBy>CPZHOUCHENG</createdBy>
+<createdTime>2016-05-30 04:18:53 UTC</createdTime>
+<commentInRDBMS>Driver&apos;s first name</commentInRDBMS>
+<ownerDesignName>FIT9132OracleModel</ownerDesignName>
+<importedID>05B4FADA-89C7-5145-EC25-C7AA99CFF041</importedID>
+<engineerTo>
+<item key="1E200872-3093-9335-05CF-693F0813BD1B" value="true"/>
+<item key="7285038B-431C-BB99-5045-CC86D47872E7" value="true"/>
+<item key="0F7B6AF3-C450-67A7-3AB7-53DAA05C482F" value="true"/>
+<item key="7D6DAAA6-5645-6D84-E9EB-E7820FB02B58" value="true"/>
+<item key="668FDCA4-05F1-3B79-A761-1D17606A4923" value="true"/>
+<item key="93CAFDFC-2C83-0F05-1A6F-705A21201580" value="true"/>
+<item key="84E17D33-E0EA-18EF-B8F5-A6D65083BEE4" value="true"/>
+<item key="B6668DAD-0DDD-CE12-B2E4-86F96F647FF1" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Driver_Lname" id="A5340E12-E23E-F5E7-14DD-819B1BC67C62">
+<createdBy>CPZHOUCHENG</createdBy>
+<createdTime>2016-05-30 04:18:53 UTC</createdTime>
+<commentInRDBMS>Driver&apos;s last name</commentInRDBMS>
+<ownerDesignName>FIT9132OracleModel</ownerDesignName>
+<importedID>8E85CD41-A265-0240-883D-B02E300CFB62</importedID>
+<engineerTo>
+<item key="1E200872-3093-9335-05CF-693F0813BD1B" value="true"/>
+<item key="7285038B-431C-BB99-5045-CC86D47872E7" value="true"/>
+<item key="0F7B6AF3-C450-67A7-3AB7-53DAA05C482F" value="true"/>
+<item key="7D6DAAA6-5645-6D84-E9EB-E7820FB02B58" value="true"/>
+<item key="668FDCA4-05F1-3B79-A761-1D17606A4923" value="true"/>
+<item key="93CAFDFC-2C83-0F05-1A6F-705A21201580" value="true"/>
+<item key="84E17D33-E0EA-18EF-B8F5-A6D65083BEE4" value="true"/>
+<item key="B6668DAD-0DDD-CE12-B2E4-86F96F647FF1" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Birthday" id="B88EB250-6E2D-D9F3-9DC7-9FE22A3DC9DB">
+<createdBy>CPZHOUCHENG</createdBy>
+<createdTime>2016-05-30 04:18:53 UTC</createdTime>
+<commentInRDBMS>Date of birth of a driver</commentInRDBMS>
+<ownerDesignName>FIT9132OracleModel</ownerDesignName>
+<importedID>65504312-AAE0-528B-6DE8-4C9A3927A262</importedID>
+<engineerTo>
+<item key="1E200872-3093-9335-05CF-693F0813BD1B" value="true"/>
+<item key="7285038B-431C-BB99-5045-CC86D47872E7" value="true"/>
+<item key="0F7B6AF3-C450-67A7-3AB7-53DAA05C482F" value="true"/>
+<item key="7D6DAAA6-5645-6D84-E9EB-E7820FB02B58" value="true"/>
+<item key="668FDCA4-05F1-3B79-A761-1D17606A4923" value="true"/>
+<item key="93CAFDFC-2C83-0F05-1A6F-705A21201580" value="true"/>
+<item key="84E17D33-E0EA-18EF-B8F5-A6D65083BEE4" value="true"/>
+<item key="B6668DAD-0DDD-CE12-B2E4-86F96F647FF1" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Licence_No" id="F96A45C3-ED7B-11C1-B379-B342B175B187">
+<createdBy>CPZHOUCHENG</createdBy>
+<createdTime>2016-05-30 04:18:53 UTC</createdTime>
+<commentInRDBMS>The number of licence certificated to a driver</commentInRDBMS>
+<ownerDesignName>FIT9132OracleModel</ownerDesignName>
+<importedID>8E877FDA-7B6B-064A-6E50-50CC0E929E9C</importedID>
+<engineerTo>
+<item key="1E200872-3093-9335-05CF-693F0813BD1B" value="true"/>
+<item key="7285038B-431C-BB99-5045-CC86D47872E7" value="true"/>
+<item key="0F7B6AF3-C450-67A7-3AB7-53DAA05C482F" value="true"/>
+<item key="7D6DAAA6-5645-6D84-E9EB-E7820FB02B58" value="true"/>
+<item key="668FDCA4-05F1-3B79-A761-1D17606A4923" value="true"/>
+<item key="93CAFDFC-2C83-0F05-1A6F-705A21201580" value="true"/>
+<item key="84E17D33-E0EA-18EF-B8F5-A6D65083BEE4" value="true"/>
+<item key="B6668DAD-0DDD-CE12-B2E4-86F96F647FF1" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>19</dataTypeSize>
+<ownDataTypeParameters>19,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Level_of_Clearance" id="594273B7-DAD5-462F-AE9A-DBC06B4BF448">
+<createdBy>CPZHOUCHENG</createdBy>
+<createdTime>2016-05-30 04:18:53 UTC</createdTime>
+<commentInRDBMS>A driver has the level of clearance, the level are digits from 1 to 4, 4 is the highest level</commentInRDBMS>
+<ownerDesignName>FIT9132OracleModel</ownerDesignName>
+<importedID>4DB9AB5C-5434-CC3E-0F55-14B1CC2CB1D7</importedID>
+<engineerTo>
+<item key="1E200872-3093-9335-05CF-693F0813BD1B" value="true"/>
+<item key="7285038B-431C-BB99-5045-CC86D47872E7" value="true"/>
+<item key="0F7B6AF3-C450-67A7-3AB7-53DAA05C482F" value="true"/>
+<item key="7D6DAAA6-5645-6D84-E9EB-E7820FB02B58" value="true"/>
+<item key="668FDCA4-05F1-3B79-A761-1D17606A4923" value="true"/>
+<item key="93CAFDFC-2C83-0F05-1A6F-705A21201580" value="true"/>
+<item key="84E17D33-E0EA-18EF-B8F5-A6D65083BEE4" value="true"/>
+<item key="B6668DAD-0DDD-CE12-B2E4-86F96F647FF1" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Suspension" id="C7E3E84C-0584-24DA-EC8B-00AB7544AFD4">
+<createdBy>CPZHOUCHENG</createdBy>
+<createdTime>2016-05-30 04:18:53 UTC</createdTime>
+<commentInRDBMS>When a driver is in a suspension due to issues, he can not driver any OT vehicle.</commentInRDBMS>
+<ownerDesignName>FIT9132OracleModel</ownerDesignName>
+<importedID>6AA0B555-8FE7-23BD-7A7F-A281202146D8</importedID>
+<engineerTo>
+<item key="1E200872-3093-9335-05CF-693F0813BD1B" value="true"/>
+<item key="7285038B-431C-BB99-5045-CC86D47872E7" value="true"/>
+<item key="0F7B6AF3-C450-67A7-3AB7-53DAA05C482F" value="true"/>
+<item key="7D6DAAA6-5645-6D84-E9EB-E7820FB02B58" value="true"/>
+<item key="668FDCA4-05F1-3B79-A761-1D17606A4923" value="true"/>
+<item key="93CAFDFC-2C83-0F05-1A6F-705A21201580" value="true"/>
+<item key="84E17D33-E0EA-18EF-B8F5-A6D65083BEE4" value="true"/>
+<item key="B6668DAD-0DDD-CE12-B2E4-86F96F647FF1" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Module_Count" id="C2A413E7-19DA-FA51-83F9-6AD1E84AADD4">
+<createdBy>CPZHOUCHENG</createdBy>
+<createdTime>2016-05-30 04:18:53 UTC</createdTime>
+<commentInRDBMS>Total number of modules a driver has completed</commentInRDBMS>
+<ownerDesignName>FIT9132OracleModel</ownerDesignName>
+<importedID>6456070E-B50C-694A-104E-F853680A866A</importedID>
+<engineerTo>
+<item key="1E200872-3093-9335-05CF-693F0813BD1B" value="true"/>
+<item key="7285038B-431C-BB99-5045-CC86D47872E7" value="true"/>
+<item key="0F7B6AF3-C450-67A7-3AB7-53DAA05C482F" value="true"/>
+<item key="7D6DAAA6-5645-6D84-E9EB-E7820FB02B58" value="true"/>
+<item key="668FDCA4-05F1-3B79-A761-1D17606A4923" value="true"/>
+<item key="93CAFDFC-2C83-0F05-1A6F-705A21201580" value="true"/>
+<item key="84E17D33-E0EA-18EF-B8F5-A6D65083BEE4" value="true"/>
+<item key="B6668DAD-0DDD-CE12-B2E4-86F96F647FF1" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="C25C1425-2DF5-97FA-9448-DBB82A73E056" name="Driver PK">
+<createdBy>CPZHOUCHENG</createdBy>
+<createdTime>2016-05-30 04:18:53 UTC</createdTime>
+<ownerDesignName>FIT9132OracleModel</ownerDesignName>
+<importedID>6E4EBA87-DA2F-616C-A438-08A7582B81AC</importedID>
+<engineerTo>
+<item key="1E200872-3093-9335-05CF-693F0813BD1B" value="true"/>
+<item key="7285038B-431C-BB99-5045-CC86D47872E7" value="true"/>
+<item key="0F7B6AF3-C450-67A7-3AB7-53DAA05C482F" value="true"/>
+<item key="7D6DAAA6-5645-6D84-E9EB-E7820FB02B58" value="true"/>
+<item key="668FDCA4-05F1-3B79-A761-1D17606A4923" value="true"/>
+<item key="93CAFDFC-2C83-0F05-1A6F-705A21201580" value="true"/>
+<item key="84E17D33-E0EA-18EF-B8F5-A6D65083BEE4" value="true"/>
+<item key="B6668DAD-0DDD-CE12-B2E4-86F96F647FF1" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>C9B8904F-1BF1-97F2-556A-73684AE63249</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

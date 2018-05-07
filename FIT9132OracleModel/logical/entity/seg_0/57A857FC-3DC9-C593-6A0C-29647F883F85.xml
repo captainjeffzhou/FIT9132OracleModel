@@ -1,0 +1,255 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="57A857FC-3DC9-C593-6A0C-29647F883F85" name="Booking">
+<createdBy>CPZHOUCHENG</createdBy>
+<createdTime>2016-05-30 04:18:53 UTC</createdTime>
+<ownerDesignName>FIT9132OracleModel</ownerDesignName>
+<importedID>28D753FD-A345-BE3E-D39C-18773D960F8B</importedID>
+<engineerTo>
+<item key="1E200872-3093-9335-05CF-693F0813BD1B" value="true"/>
+<item key="7285038B-431C-BB99-5045-CC86D47872E7" value="true"/>
+<item key="0F7B6AF3-C450-67A7-3AB7-53DAA05C482F" value="true"/>
+<item key="7D6DAAA6-5645-6D84-E9EB-E7820FB02B58" value="true"/>
+<item key="668FDCA4-05F1-3B79-A761-1D17606A4923" value="true"/>
+<item key="93CAFDFC-2C83-0F05-1A6F-705A21201580" value="true"/>
+<item key="84E17D33-E0EA-18EF-B8F5-A6D65083BEE4" value="true"/>
+<item key="B6668DAD-0DDD-CE12-B2E4-86F96F647FF1" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Trip_ID" id="85B9829D-6763-C5A7-75B0-D899B497A97B">
+<createdBy>CPZHOUCHENG</createdBy>
+<createdTime>2016-05-30 04:18:53 UTC</createdTime>
+<commentInRDBMS>Every trip has a unique ID</commentInRDBMS>
+<ownerDesignName>FIT9132OracleModel</ownerDesignName>
+<importedID>E82B17B0-690C-A72F-7074-039759296271</importedID>
+<engineerTo>
+<item key="1E200872-3093-9335-05CF-693F0813BD1B" value="true"/>
+<item key="7285038B-431C-BB99-5045-CC86D47872E7" value="true"/>
+<item key="0F7B6AF3-C450-67A7-3AB7-53DAA05C482F" value="true"/>
+<item key="7D6DAAA6-5645-6D84-E9EB-E7820FB02B58" value="true"/>
+<item key="668FDCA4-05F1-3B79-A761-1D17606A4923" value="true"/>
+<item key="93CAFDFC-2C83-0F05-1A6F-705A21201580" value="true"/>
+<item key="84E17D33-E0EA-18EF-B8F5-A6D65083BEE4" value="true"/>
+<item key="B6668DAD-0DDD-CE12-B2E4-86F96F647FF1" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Pick_Time" id="32D6680B-2EB2-2837-3998-D89143116AEF">
+<createdBy>CPZHOUCHENG</createdBy>
+<createdTime>2016-05-30 04:18:53 UTC</createdTime>
+<commentInRDBMS>Intened pick up time</commentInRDBMS>
+<ownerDesignName>FIT9132OracleModel</ownerDesignName>
+<importedID>1DA2B353-A459-049F-9DB1-468F364A186C</importedID>
+<engineerTo>
+<item key="1E200872-3093-9335-05CF-693F0813BD1B" value="true"/>
+<item key="7285038B-431C-BB99-5045-CC86D47872E7" value="true"/>
+<item key="0F7B6AF3-C450-67A7-3AB7-53DAA05C482F" value="true"/>
+<item key="7D6DAAA6-5645-6D84-E9EB-E7820FB02B58" value="true"/>
+<item key="668FDCA4-05F1-3B79-A761-1D17606A4923" value="true"/>
+<item key="93CAFDFC-2C83-0F05-1A6F-705A21201580" value="true"/>
+<item key="84E17D33-E0EA-18EF-B8F5-A6D65083BEE4" value="true"/>
+<item key="B6668DAD-0DDD-CE12-B2E4-86F96F647FF1" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Drop_Time" id="9B01142D-300B-A927-6213-E9024902F601">
+<createdBy>CPZHOUCHENG</createdBy>
+<createdTime>2016-05-30 04:18:53 UTC</createdTime>
+<commentInRDBMS>Intened drop off time</commentInRDBMS>
+<ownerDesignName>FIT9132OracleModel</ownerDesignName>
+<importedID>4A9FC3BF-88EA-44BF-C6A4-9B03BE635E39</importedID>
+<engineerTo>
+<item key="1E200872-3093-9335-05CF-693F0813BD1B" value="true"/>
+<item key="7285038B-431C-BB99-5045-CC86D47872E7" value="true"/>
+<item key="0F7B6AF3-C450-67A7-3AB7-53DAA05C482F" value="true"/>
+<item key="7D6DAAA6-5645-6D84-E9EB-E7820FB02B58" value="true"/>
+<item key="668FDCA4-05F1-3B79-A761-1D17606A4923" value="true"/>
+<item key="93CAFDFC-2C83-0F05-1A6F-705A21201580" value="true"/>
+<item key="84E17D33-E0EA-18EF-B8F5-A6D65083BEE4" value="true"/>
+<item key="B6668DAD-0DDD-CE12-B2E4-86F96F647FF1" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Intened drop off time" id="B4B691FD-D78C-1E9C-01DF-1B76B2187983">
+<createdBy>CPZHOUCHENG</createdBy>
+<createdTime>2016-05-30 04:18:53 UTC</createdTime>
+<commentInRDBMS>The amount of passengers booked for a vehicle</commentInRDBMS>
+<ownerDesignName>FIT9132OracleModel</ownerDesignName>
+<importedID>97127461-7CB9-B83F-DCED-08E9CBE99670</importedID>
+<engineerTo>
+<item key="1E200872-3093-9335-05CF-693F0813BD1B" value="true"/>
+<item key="7285038B-431C-BB99-5045-CC86D47872E7" value="true"/>
+<item key="0F7B6AF3-C450-67A7-3AB7-53DAA05C482F" value="true"/>
+<item key="7D6DAAA6-5645-6D84-E9EB-E7820FB02B58" value="true"/>
+<item key="668FDCA4-05F1-3B79-A761-1D17606A4923" value="true"/>
+<item key="93CAFDFC-2C83-0F05-1A6F-705A21201580" value="true"/>
+<item key="84E17D33-E0EA-18EF-B8F5-A6D65083BEE4" value="true"/>
+<item key="B6668DAD-0DDD-CE12-B2E4-86F96F647FF1" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Regist_No" id="16E5A910-47B3-C0FF-C2DF-30D4F0E742C0">
+<createdBy>CPZHOUCHENG</createdBy>
+<createdTime>2016-05-30 04:18:53 UTC</createdTime>
+<commentInRDBMS>Every vehicle has a registration number,it&apos;s unique.</commentInRDBMS>
+<generatorID>B82C8C80-BFD8-47BC-7D2F-694DF0EF354F</generatorID>
+<ownerDesignName>FIT9132OracleModel</ownerDesignName>
+<importedID>DF779884-C02C-2638-57FD-3E2AEEAFB752</importedID>
+<engineerTo>
+<item key="1E200872-3093-9335-05CF-693F0813BD1B" value="true"/>
+<item key="7285038B-431C-BB99-5045-CC86D47872E7" value="true"/>
+<item key="0F7B6AF3-C450-67A7-3AB7-53DAA05C482F" value="true"/>
+<item key="7D6DAAA6-5645-6D84-E9EB-E7820FB02B58" value="true"/>
+<item key="668FDCA4-05F1-3B79-A761-1D17606A4923" value="true"/>
+<item key="93CAFDFC-2C83-0F05-1A6F-705A21201580" value="true"/>
+<item key="84E17D33-E0EA-18EF-B8F5-A6D65083BEE4" value="true"/>
+<item key="B6668DAD-0DDD-CE12-B2E4-86F96F647FF1" value="true"/>
+</engineerTo>
+<referedAttribute>EE455BB2-B7C8-DA25-18C7-697847BD1245</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>9</dataTypeSize>
+<ownDataTypeParameters>9,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Location_ID" id="9FBD194D-60D3-3DFE-62F2-6ADD298EF578">
+<createdBy>CPZHOUCHENG</createdBy>
+<createdTime>2016-05-30 04:18:53 UTC</createdTime>
+<commentInRDBMS>Every location has a unique ID</commentInRDBMS>
+<generatorID>AFFACD21-3A85-F621-962C-F73AC8D407BF</generatorID>
+<ownerDesignName>FIT9132OracleModel</ownerDesignName>
+<importedID>DDA50077-CB01-D0EE-96AC-0F61B4420F6D</importedID>
+<engineerTo>
+<item key="1E200872-3093-9335-05CF-693F0813BD1B" value="true"/>
+<item key="7285038B-431C-BB99-5045-CC86D47872E7" value="true"/>
+<item key="0F7B6AF3-C450-67A7-3AB7-53DAA05C482F" value="true"/>
+<item key="7D6DAAA6-5645-6D84-E9EB-E7820FB02B58" value="true"/>
+<item key="668FDCA4-05F1-3B79-A761-1D17606A4923" value="true"/>
+<item key="93CAFDFC-2C83-0F05-1A6F-705A21201580" value="true"/>
+<item key="84E17D33-E0EA-18EF-B8F5-A6D65083BEE4" value="true"/>
+<item key="B6668DAD-0DDD-CE12-B2E4-86F96F647FF1" value="true"/>
+</engineerTo>
+<referedAttribute>C5D254E4-7AAD-09A8-F881-43038B5F2B01</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,8,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Location_ID1" id="A8F32ECA-9804-4951-6EA0-8BEA6AD47D07">
+<createdBy>CPZHOUCHENG</createdBy>
+<createdTime>2016-05-30 04:18:53 UTC</createdTime>
+<commentInRDBMS>Every location has a unique ID</commentInRDBMS>
+<generatorID>5C9C9D27-4336-800F-0E29-D27618014AB6</generatorID>
+<ownerDesignName>FIT9132OracleModel</ownerDesignName>
+<importedID>8914D4BF-1F6A-C183-706F-005B5B788CDF</importedID>
+<engineerTo>
+<item key="1E200872-3093-9335-05CF-693F0813BD1B" value="true"/>
+<item key="7285038B-431C-BB99-5045-CC86D47872E7" value="true"/>
+<item key="0F7B6AF3-C450-67A7-3AB7-53DAA05C482F" value="true"/>
+<item key="7D6DAAA6-5645-6D84-E9EB-E7820FB02B58" value="true"/>
+<item key="668FDCA4-05F1-3B79-A761-1D17606A4923" value="true"/>
+<item key="93CAFDFC-2C83-0F05-1A6F-705A21201580" value="true"/>
+<item key="84E17D33-E0EA-18EF-B8F5-A6D65083BEE4" value="true"/>
+<item key="B6668DAD-0DDD-CE12-B2E4-86F96F647FF1" value="true"/>
+</engineerTo>
+<referedAttribute>C5D254E4-7AAD-09A8-F881-43038B5F2B01</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,8,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Driver_ID" id="5671632A-ED43-3014-B3CF-52BEBB543611">
+<createdBy>CPZHOUCHENG</createdBy>
+<createdTime>2016-05-30 04:18:53 UTC</createdTime>
+<commentInRDBMS>Every driver has a unique ID</commentInRDBMS>
+<generatorID>79892F4F-8F02-AF19-3B55-E9F7125A4201</generatorID>
+<ownerDesignName>FIT9132OracleModel</ownerDesignName>
+<importedID>F5E9BACD-B505-54FE-DFE9-E37A0CA71F8F</importedID>
+<engineerTo>
+<item key="1E200872-3093-9335-05CF-693F0813BD1B" value="true"/>
+<item key="7285038B-431C-BB99-5045-CC86D47872E7" value="true"/>
+<item key="0F7B6AF3-C450-67A7-3AB7-53DAA05C482F" value="true"/>
+<item key="7D6DAAA6-5645-6D84-E9EB-E7820FB02B58" value="true"/>
+<item key="668FDCA4-05F1-3B79-A761-1D17606A4923" value="true"/>
+<item key="93CAFDFC-2C83-0F05-1A6F-705A21201580" value="true"/>
+<item key="84E17D33-E0EA-18EF-B8F5-A6D65083BEE4" value="true"/>
+<item key="B6668DAD-0DDD-CE12-B2E4-86F96F647FF1" value="true"/>
+</engineerTo>
+<referedAttribute>C9B8904F-1BF1-97F2-556A-73684AE63249</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<ownDataTypeParameters>,7,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Official_ID" id="1A46DAC7-3EA6-D21A-DE74-D9155081D051">
+<createdBy>CPZHOUCHENG</createdBy>
+<createdTime>2016-05-30 04:18:53 UTC</createdTime>
+<commentInRDBMS>Each official has unique Olympic ID</commentInRDBMS>
+<generatorID>3E2B52FD-4229-C65B-1EF1-3CDE156A0E7F</generatorID>
+<ownerDesignName>FIT9132OracleModel</ownerDesignName>
+<importedID>D0D93D1F-87FA-3E27-9BD6-23B796556CC1</importedID>
+<engineerTo>
+<item key="1E200872-3093-9335-05CF-693F0813BD1B" value="true"/>
+<item key="7285038B-431C-BB99-5045-CC86D47872E7" value="true"/>
+<item key="0F7B6AF3-C450-67A7-3AB7-53DAA05C482F" value="true"/>
+<item key="7D6DAAA6-5645-6D84-E9EB-E7820FB02B58" value="true"/>
+<item key="668FDCA4-05F1-3B79-A761-1D17606A4923" value="true"/>
+<item key="93CAFDFC-2C83-0F05-1A6F-705A21201580" value="true"/>
+<item key="84E17D33-E0EA-18EF-B8F5-A6D65083BEE4" value="true"/>
+<item key="B6668DAD-0DDD-CE12-B2E4-86F96F647FF1" value="true"/>
+</engineerTo>
+<referedAttribute>5E09DF6D-7877-7568-2036-E6ED338E4709</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>9</dataTypeSize>
+<ownDataTypeParameters>9,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="53E3D7C3-7D23-2E6F-9003-75EF74117A5A" name="Booking PK">
+<createdBy>CPZHOUCHENG</createdBy>
+<createdTime>2016-05-30 04:18:53 UTC</createdTime>
+<ownerDesignName>FIT9132OracleModel</ownerDesignName>
+<importedID>0E051DD1-0A4A-B2EE-F50D-881941848A34</importedID>
+<engineerTo>
+<item key="1E200872-3093-9335-05CF-693F0813BD1B" value="true"/>
+<item key="7285038B-431C-BB99-5045-CC86D47872E7" value="true"/>
+<item key="0F7B6AF3-C450-67A7-3AB7-53DAA05C482F" value="true"/>
+<item key="7D6DAAA6-5645-6D84-E9EB-E7820FB02B58" value="true"/>
+<item key="668FDCA4-05F1-3B79-A761-1D17606A4923" value="true"/>
+<item key="93CAFDFC-2C83-0F05-1A6F-705A21201580" value="true"/>
+<item key="84E17D33-E0EA-18EF-B8F5-A6D65083BEE4" value="true"/>
+<item key="B6668DAD-0DDD-CE12-B2E4-86F96F647FF1" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>85B9829D-6763-C5A7-75B0-D899B497A97B</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

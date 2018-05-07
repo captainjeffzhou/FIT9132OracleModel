@@ -1,0 +1,28 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Relation_9" directorySegmentName="seg_0" id="C98DD989-1090-002F-6E38-13D87A145ADC">
+<createdBy>CPZHOUCHENG</createdBy>
+<createdTime>2016-05-30 04:18:54 UTC</createdTime>
+<ownerDesignName>FIT9132OracleModel</ownerDesignName>
+<importedID>31A6B348-5AA5-1FD5-2C55-9A29C0D192D0</importedID>
+<engineerTo>
+<item key="1E200872-3093-9335-05CF-693F0813BD1B" value="true"/>
+<item key="7285038B-431C-BB99-5045-CC86D47872E7" value="true"/>
+<item key="0F7B6AF3-C450-67A7-3AB7-53DAA05C482F" value="true"/>
+<item key="7D6DAAA6-5645-6D84-E9EB-E7820FB02B58" value="true"/>
+<item key="668FDCA4-05F1-3B79-A761-1D17606A4923" value="true"/>
+<item key="93CAFDFC-2C83-0F05-1A6F-705A21201580" value="true"/>
+<item key="84E17D33-E0EA-18EF-B8F5-A6D65083BEE4" value="true"/>
+<item key="B6668DAD-0DDD-CE12-B2E4-86F96F647FF1" value="true"/>
+</engineerTo>
+<sourcePk>C25C1425-2DF5-97FA-9448-DBB82A73E056</sourcePk>
+<identifying>true</identifying>
+<nameOnSource>speaks</nameOnSource>
+<nameOnTarget>is for</nameOnTarget>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>0E5B4944-C53F-4A62-17DA-C609BC67E004</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>DA086874-04ED-0FE9-D141-EB908E3E552F</targetEntity>
+<transferable>true</transferable>
+</Relation>

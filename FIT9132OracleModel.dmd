@@ -1,0 +1,34 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="FIT9132OracleModel" id="0B40AF0B-C84D-74D5-9076-DA2CDB3C3893" version="3.5">
+<createdBy>CPZHOUCHENG</createdBy>
+<createdTime>2016-05-30 04:18:41 UTC</createdTime>
+<ownerDesignName>FIT9132OracleModel</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>0B40AF0B-C84D-74D5-9076-DA2CDB3C3893</designId>
+<usedDesignStorageDescriptors>
+<designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="5ADB9975-244C-C283-A6B6-3D12F1CA5618">
+<designStoragePath>C:\Users\ZHOUCHENG\Desktop\logical0000001</designStoragePath>
+</designDescr>
+<designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="222BC747-98C0-1837-4D00-837DEAB211AC">
+<designStoragePath>D:\9132Assign2</designStoragePath>
+</designDescr>
+<designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="28F1C6C0-75E6-A8DA-8F1D-A739D15BD574">
+<designStoragePath>D:\fa</designStoragePath>
+</designDescr>
+<designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="2BB71475-8A50-C231-E35C-8C9486BDBB00">
+<designStoragePath>/Users/CPZHOUCHENG/Desktop/FIT9132OracleModel/FIT9132OracleModel</designStoragePath>
+</designDescr>
+<designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="04C12DA1-CCA4-A5EB-FE4A-A6081E8B9E27">
+<designStoragePath>/Users/CPZHOUCHENG/Desktop/screen shot/FIT9132OracleModel/FIT9132OracleModel</designStoragePath>
+</designDescr>
+<designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="1FA73AB0-6FCA-92B2-6C83-62B3AD7EE59E">
+<designStoragePath>/Users/CPZHOUCHENG/Desktop/logical</designStoragePath>
+</designDescr>
+<designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="DF3CEB77-81D9-4D7D-47A6-86719256FA4A">
+<designStoragePath>/Users/CPZHOUCHENG/Desktop/FIT9132OracleModelgood/FIT9132OracleModel</designStoragePath>
+</designDescr>
+<designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="4B09F2EC-A749-C3AA-3BB8-4911CEED67D7">
+<designStoragePath>/Users/CPZHOUCHENG/Desktop/aaaaaaaaaaaaaaaaa/FIT9132OracleModel 2/FIT9132OracleModel</designStoragePath>
+</designDescr>
+</usedDesignStorageDescriptors>
+</OSDM_Design>
