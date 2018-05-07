@@ -1,0 +1,795 @@
+**************************************************************
+
+This is the first running, we have run the sql file two times, as we made a little changes in the second running
+
+******************************************************************************************************************
+
+Table BOOKING created.
+
+
+Comment on column booking.trip_id 'EVERY TRIP HAS A UNIQUE ID' succeeded.
+
+Comment on column booking.pick_time 'INTENED PICK UP TIME' succeeded.
+
+
+Comment on column booking.drop_time 'INTENED DROP OFF TIME' succeeded.
+
+Comment on column booking.passenger_count 'THE AMOUNT OF PASSENGERS BOOKED FOR A VEHICLE' succeeded.
+
+
+Comment on column booking.driver_id 'EVERY DRIVER HAS A UNIQUE ID' succeeded.
+
+Comment on column booking.regist_no 'EVERY VEHICLE HAS A REGISTRATION NUMBER,IT''S UNIQUE.' succeeded.
+
+
+Comment on column booking.location_id 'EVERY LOCATION HAS A UNIQUE ID' succeeded.
+
+Comment on column booking.location_id2 'EVERY LOCATION HAS A UNIQUE ID' succeeded.
+
+
+Comment on column booking.language_code 'EVERY LANGUAGE USE THE ISO639-1 TWO-CHARACTER LANGUAGE CODE,ITS UNIQUE' succeeded.
+
+Table BOOKING altered.
+
+
+Table COMPLETION created.
+
+Comment on column completion.driver_id 'EVERY DRIVER HAS A UNIQUE ID' succeeded.
+
+
+Comment on column completion.module_id 'THERE IS AN COMPULSARY MODULE TO BE COMPLETED TO BE A DRIVER OF OT, THERE ARE ALSO OTHER OPTIONAL MODULES TO BE CHOSED. ' succeeded.
+
+Table COMPLETION altered.
+
+
+Table DRIVER created.
+
+Comment on column driver.driver_id 'EVERY DRIVER HAS A UNIQUE ID' succeeded.
+
+
+Comment on column driver.driver_fname 'DRIVER''S FIRST NAME' succeeded.
+
+Comment on column driver.driver_lname 'DRIVER;S LAST NAME' succeeded.
+
+Comment on column driver.birthday 'DATE OF BIRTH OF A DRIVER' succeeded.
+
+
+Comment on column driver.level_of_clearance 'A DRIVER HAS THE LEVEL OF CLEARANCE, THE LEVEL ARE DIGITS FROM 1 TO 4, 4 IS THE HIGHEST LEVEL.' succeeded.
+
+Comment on column driver.suspension 'WHEN A DRIVER IS IN A SUSPENSION DUE TO ISSUES, HE CAN NOT DRIVER ANY OT VEHICLE.' succeeded.
+
+
+Table DRIVER altered.
+
+Table FEATURE created.
+
+
+Comment on column feature.make 'THE MANUFACTURER OF THE VEHICLE' succeeded.
+
+Comment on column feature.model 'EVERY MAKER PROVIDES DIFFERENT MODELS' succeeded.
+
+Comment on column feature.seats_no 'VEHICLES HAVE THEIR OWN FIXED SEAT NUMBER' succeeded.
+
+
+Comment on column feature.feature 'FEATURES ARE DECIDED BY THE MODELS OF VEHICLES FROM THE SAME MAKER.' succeeded.
+
+Table FEATURE altered.
+
+
+Table LANGUAGE created.
+
+Comment on column language.language_code 'EVERY LANGUAGE USE THE ISO639-1 TWO-CHARACTER LANGUAGE CODE,ITS UNIQUE' succeeded.
+
+
+Comment on column language.language 'NAME OF THE LANGUAGE' succeeded.
+
+Table LANGUAGE altered.
+
+
+Table LOCATION created.
+
+Comment on column location.location_id 'EVERY LOCATION HAS A UNIQUE ID' succeeded.
+
+
+Comment on column location.location_name 'NAME OF A LOCATION' succeeded.
+
+Comment on column location.location_type 'LOCATIONS ARE CLASSIFIED TO DIFFERENT TYPES' succeeded.
+
+
+Comment on column location.address 'ADDRESS OF A LOCATION INCLUDES STREET, NUMBER, TOWN' succeeded.
+
+Table LOCATION altered.
+
+
+Table MAINTENANCE_REPAIR created.
+
+Comment on column maintenance_repair.regist_no 'EVERY VEHICLE HAS A REGISTRATION NUMBER,IT''S UNIQUE.' succeeded.
+
+
+Comment on column maintenance_repair.type 'MAINTENANCE OR REPAIR' succeeded.
+
+Comment on column maintenance_repair.start_date 'START DATE WHEN THE VEHICLE IS MAINTENANCE OR REPAIR IS STARTED' succeeded.
+
+
+Comment on column maintenance_repair.cost 'THE FINAL COST' succeeded.
+
+Comment on column maintenance_repair.details 'THE DESCRIPTION OF THE ACTION WHEN MAINTENANED OR REPIRED.' succeeded.
+
+
+Table MAINTENANCE_REPAIR altered.
+
+Table MODULE created.
+
+
+Comment on column module.module_id 'THERE IS AN COMPULSARY MODULE TO BE COMPLETED TO BE A DRIVER OF OT, THERE ARE ALSO OTHER OPTIONAL MODULES TO BE CHOSED. ' succeeded.
+
+Comment on column module.module_name 'NAME OF A TRAINING MODULE.' succeeded.
+
+
+Comment on column module.duration 'THE NUMBER OF DAYS OF A MODULE ' succeeded.
+
+Table MODULE altered.
+
+
+Table OFFICIAL created.
+
+Comment on column official.officail_fname 'FIRST NAME OF AN OFFICAIL' succeeded.
+
+
+Comment on column official.official_lname 'OFFICIAL''S LAST NAME' succeeded.
+
+Comment on column official.prefer_language 'EVERY OFFICAIL HAS A SINGLE PREFERRED LANGUAGE' succeeded.
+
+
+Comment on column official.country 'THE NATION WHERE THE OFFICIAL FROM' succeeded.
+
+Comment on column official.role 'THE TITLE OF AN OFFICIAL' succeeded.
+
+
+Comment on column official.language_code 'EVERY LANGUAGE USE THE ISO639-1 TWO-CHARACTER LANGUAGE CODE,ITS UNIQUE' succeeded.
+
+Unique index OFFICIAL__IDX created.
+
+
+Table OFFICIAL altered.
+
+Table OWN_FEATURE created.
+
+
+Comment on column own_feature.regist_no 'EVERY VEHICLE HAS A REGISTRATION NUMBER,IT''S UNIQUE.' succeeded.
+
+Comment on column own_feature.make 'THE MANUFACTURER OF THE VEHICLE' succeeded.
+
+
+Comment on column own_feature.model 'EVERY MAKER PROVIDES DIFFERENT MODELS' succeeded.
+
+Table OWN_FEATURE altered.
+
+
+Table SPEAK_LANGUAGE created.
+
+Comment on column speak_language.driver_id 'EVERY DRIVER HAS A UNIQUE ID' succeeded.
+
+
+Comment on column speak_language.language_code 'EVERY LANGUAGE USE THE ISO639-1 TWO-CHARACTER LANGUAGE CODE,ITS UNIQUE' succeeded.
+
+Table SPEAK_LANGUAGE altered.
+
+
+Table VEHICLE created.
+
+Comment on column vehicle.regist_no 'EVERY VEHICLE HAS A REGISTRATION NUMBER,IT''S UNIQUE.' succeeded.
+
+
+Comment on column vehicle.vin 'EVERY VEHICLE HAS AN ID VIN), IT''S UNIQUE' succeeded.
+
+Comment on column vehicle.make 'THE MANUFACTURER OF THE VEHICLE' succeeded.
+
+
+Comment on column vehicle.model 'EVERY MAKER PROVIDES DIFFERENT MODELS' succeeded.
+
+Comment on column vehicle.colour 'EVERY VEHICLE HAS SINGLE COLOUR' succeeded.
+
+Table VEHICLE altered.
+
+Table BOOKING altered.
+
+Table BOOKING altered.
+
+Table BOOKING altered.
+
+Table BOOKING altered.
+
+Table BOOKING altered.
+
+Table COMPLETION altered.
+
+
+Table COMPLETION altered.
+
+Table MAINTENANCE_REPAIR altered.
+
+Table OFFICIAL altered.
+
+
+Table OWN_FEATURE altered.
+
+Table OWN_FEATURE altered.
+
+
+Table SPEAK_LANGUAGE altered.
+
+Table SPEAK_LANGUAGE altered.
+
+
+Trigger FKNTM_COMPLETION compiled
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+*********************************************************************************
+
+The following is the second time running the sql file,
+It points out errors because things are already done in the first running
+****************************************************************************************
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Error starting at line : 9 in command -
+CREATE TABLE Booking
+  (
+    Trip_ID               NUMBER (6) NOT NULL ,
+    Pick_Time             DATE NOT NULL ,
+    Drop_Time             DATE NOT NULL ,
+    Intened_drop_off_time NUMBER (2) NOT NULL ,
+    Regist_No             CHAR (9) NOT NULL ,
+    Location_ID           NUMBER (8) NOT NULL ,
+    Location_ID2          NUMBER (8) NOT NULL ,
+    Driver_ID             NUMBER (7) NOT NULL ,
+    Official_ID           CHAR (9) NOT NULL
+  ) 
+Error report -
+SQL Error: ORA-00955: name is already used by an existing object
+00955. 00000 -  "name is already used by an existing object"
+*Cause:    
+*Action:
+
+Comment on column booking.trip_id 'EVERY TRIP HAS A UNIQUE ID' succeeded.
+
+Comment on column booking.pick_time 'INTENED PICK UP TIME' succeeded.
+
+
+Comment on column booking.drop_time 'INTENED DROP OFF TIME' succeeded.
+
+Error starting at line : 30 in command -
+COMMENT ON COLUMN Booking.Intened_drop_off_time
+IS
+  'The amount of passengers booked for a vehicle' 
+Error report -
+SQL Error: ORA-00904: "INTENED_DROP_OFF_TIME": invalid identifier
+00904. 00000 -  "%s: invalid identifier"
+*Cause:    
+*Action:
+
+Comment on column booking.regist_no 'EVERY VEHICLE HAS A REGISTRATION NUMBER,IT''S UNIQUE.' succeeded.
+
+Comment on column booking.location_id 'EVERY LOCATION HAS A UNIQUE ID' succeeded.
+
+
+Comment on column booking.location_id2 'EVERY LOCATION HAS A UNIQUE ID' succeeded.
+
+Comment on column booking.driver_id 'EVERY DRIVER HAS A UNIQUE ID' succeeded.
+
+
+Comment on column booking.official_id 'EACH OFFICIAL HAS UNIQUE OLYMPIC ID' succeeded.
+
+Error starting at line : 48 in command -
+ALTER TABLE Booking ADD CONSTRAINT Booking_PK PRIMARY KEY ( Trip_ID ) 
+Error report -
+SQL Error: ORA-02260: table can have only one primary key
+02260. 00000 -  "table can have only one primary key"
+*Cause:    Self-evident.
+*Action:   Remove the extra primary key.
+
+Error starting at line : 51 in command -
+CREATE TABLE Completion
+  (
+    Driver_ID NUMBER (7) NOT NULL ,
+    Module_ID CHAR (10) NOT NULL
+  ) 
+Error report -
+SQL Error: ORA-00955: name is already used by an existing object
+00955. 00000 -  "name is already used by an existing object"
+*Cause:    
+*Action:
+Comment on column completion.driver_id 'EVERY DRIVER HAS A UNIQUE ID' succeeded.
+
+
+Comment on column completion.module_id 'THERE IS AN COMPULSARY MODULE TO BE COMPLETED TO BE A DRIVER OF OT, THERE ARE ALSO OTHER OPTIONAL MODULES TO BE CHOSED.' succeeded.
+
+Error starting at line : 62 in command -
+ALTER TABLE Completion ADD CONSTRAINT Completion_PK PRIMARY KEY ( Driver_ID, Module_ID ) 
+Error report -
+SQL Error: ORA-02260: table can have only one primary key
+02260. 00000 -  "table can have only one primary key"
+*Cause:    Self-evident.
+*Action:   Remove the extra primary key.
+
+Error starting at line : 65 in command -
+CREATE TABLE Driver
+  (
+    Driver_ID          NUMBER (7) NOT NULL ,
+    Driver_Fname       VARCHAR2 (20) NOT NULL ,
+    Driver_Lname       VARCHAR2 (20) NOT NULL ,
+    Birthday           DATE NOT NULL ,
+    Licence_No         CHAR (19) NOT NULL ,
+    Level_of_Clearance NUMBER (2) NOT NULL ,
+    Suspension         CHAR (10) NOT NULL ,
+    Module_Count       NUMBER (2) NOT NULL
+  ) 
+Error report -
+SQL Error: ORA-00955: name is already used by an existing object
+00955. 00000 -  "name is already used by an existing object"
+*Cause:    
+*Action:
+Comment on column driver.driver_id 'EVERY DRIVER HAS A UNIQUE ID' succeeded.
+
+
+Comment on column driver.driver_fname 'DRIVER''S FIRST NAME' succeeded.
+
+Comment on column driver.driver_lname 'DRIVER''S LAST NAME' succeeded.
+
+
+Comment on column driver.birthday 'DATE OF BIRTH OF A DRIVER' succeeded.
+
+Comment on column driver.licence_no 'THE NUMBER OF LICENCE CERTIFICATED TO A DRIVER' succeeded.
+
+
+Comment on column driver.level_of_clearance 'A DRIVER HAS THE LEVEL OF CLEARANCE, THE LEVEL ARE DIGITS FROM 1 TO 4, 4 IS THE HIGHEST LEVEL' succeeded.
+
+Comment on column driver.suspension 'WHEN A DRIVER IS IN A SUSPENSION DUE TO ISSUES, HE CAN NOT DRIVER ANY OT VEHICLE.' succeeded.
+
+
+Error starting at line : 97 in command -
+COMMENT ON COLUMN Driver.Module_Count
+IS
+  'Total number of modules a driver has completed' 
+Error report -
+SQL Error: ORA-00904: "MODULE_COUNT": invalid identifier
+00904. 00000 -  "%s: invalid identifier"
+*Cause:    
+*Action:
+Error starting at line : 100 in command -
+ALTER TABLE Driver ADD CONSTRAINT Driver_PK PRIMARY KEY ( Driver_ID ) 
+Error report -
+SQL Error: ORA-02260: table can have only one primary key
+02260. 00000 -  "table can have only one primary key"
+*Cause:    Self-evident.
+*Action:   Remove the extra primary key.
+
+Error starting at line : 103 in command -
+CREATE TABLE Feature
+  (
+    Make     CHAR (10) NOT NULL ,
+    Model    VARCHAR2 (20) NOT NULL ,
+    Seats_No NUMBER (2) NOT NULL ,
+    Feature  VARCHAR2 (50) NOT NULL
+  ) 
+Error report -
+SQL Error: ORA-00955: name is already used by an existing object
+00955. 00000 -  "name is already used by an existing object"
+*Cause:    
+*Action:
+Comment on column feature.make 'THE MANUFACTURER OF THE VEHICLE' succeeded.
+
+Comment on column feature.model 'EVERY MAKER PROVIDES DIFFERENT MODELS OF VEHICLES,VEHICLES OF SAME MODEL HAVE SAME FEATURES' succeeded.
+
+
+Comment on column feature.seats_no 'THE AMOUNT OF SEATS OF A VEHICLE' succeeded.
+
+
+Comment on column feature.feature 'THE STYLES AND CHARACTERS OF A VEHICLE, IT IS DECIDED BY MODEL' succeeded.
+
+Error starting at line : 122 in command -
+ALTER TABLE Feature ADD CONSTRAINT Feature_PK PRIMARY KEY ( Make, Model ) 
+Error report -
+SQL Error: ORA-02260: table can have only one primary key
+02260. 00000 -  "table can have only one primary key"
+*Cause:    Self-evident.
+*Action:   Remove the extra primary key.
+
+Error starting at line : 125 in command -
+CREATE TABLE Language
+  (
+    Language_Code CHAR (3) NOT NULL ,
+    Language      VARCHAR2 (20) NOT NULL
+  ) 
+Error report -
+SQL Error: ORA-00955: name is already used by an existing object
+00955. 00000 -  "name is already used by an existing object"
+*Cause:    
+*Action:
+Comment on column language.language_code 'EVERY LANGUAGE USE THE ISO639-1 TWO-CHARACTER LANGUAGE CODE,IT''S UNIQUE' succeeded.
+
+
+Comment on column language.language 'NAME OF THE LANGUAGE' succeeded.
+
+Error starting at line : 136 in command -
+ALTER TABLE Language ADD CONSTRAINT Language_PK PRIMARY KEY ( Language_Code ) 
+Error report -
+SQL Error: ORA-02260: table can have only one primary key
+02260. 00000 -  "table can have only one primary key"
+*Cause:    Self-evident.
+*Action:   Remove the extra primary key.
+
+Error starting at line : 139 in command -
+CREATE TABLE Location
+  (
+    Location_ID   NUMBER (8) NOT NULL ,
+    Location_name VARCHAR2 (50) NOT NULL ,
+    Location_Type VARCHAR2 (20) NOT NULL ,
+    Address       VARCHAR2 (50) NOT NULL
+  ) 
+Error report -
+SQL Error: ORA-00955: name is already used by an existing object
+00955. 00000 -  "name is already used by an existing object"
+*Cause:    
+*Action:
+Comment on column location.location_id 'EVERY LOCATION HAS A UNIQUE ID' succeeded.
+
+
+Comment on column location.location_name 'NAME OF A LOCATION' succeeded.
+
+Comment on column location.location_type 'LOCATIONS ARE CLASSIFIED TO DIFFERENT TYPES.EG.HOTEL,LIBRARY' succeeded.
+
+
+Comment on column location.address 'ADDRESS OF A LOCATION INCLUDES STREET, NUMBER, TOWN' succeeded.
+
+Error starting at line : 158 in command -
+ALTER TABLE Location ADD CONSTRAINT Location_PK PRIMARY KEY ( Location_ID ) 
+Error report -
+SQL Error: ORA-02260: table can have only one primary key
+02260. 00000 -  "table can have only one primary key"
+*Cause:    Self-evident.
+*Action:   Remove the extra primary key.
+
+Error starting at line : 161 in command -
+CREATE TABLE Maintenance_Repair
+  (
+    Type       CHAR (12) NOT NULL ,
+    Start_Date DATE NOT NULL ,
+    Cost       NUMBER (10) NOT NULL ,
+    Details    VARCHAR2 (50) NOT NULL ,
+    Regist_No  CHAR (9) NOT NULL
+  ) 
+Error report -
+SQL Error: ORA-00955: name is already used by an existing object
+00955. 00000 -  "name is already used by an existing object"
+*Cause:    
+*Action:
+Comment on column maintenance_repair.type 'MAINTENANCE OR REPAIR' succeeded.
+
+
+Comment on column maintenance_repair.start_date 'START DATE WHEN THE VEHICLE IS MAINTENANCE OR REPAIR IS STARTED' succeeded.
+
+Comment on column maintenance_repair.cost 'THE FINAL COST OF THE MAINTENANCE OR REPAIR' succeeded.
+
+
+Comment on column maintenance_repair.details 'THE DESCRIPTION OF THE ACTION WHEN MAINTENANED OR REPIRED.' succeeded.
+
+
+Comment on column maintenance_repair.regist_no 'EVERY VEHICLE HAS A REGISTRATION NUMBER,IT''S UNIQUE.' succeeded.
+
+Error starting at line : 184 in command -
+ALTER TABLE Maintenance_Repair ADD CONSTRAINT Maintenance_Repair_PK PRIMARY KEY ( Type, Start_Date, Regist_No ) 
+Error report -
+SQL Error: ORA-02260: table can have only one primary key
+02260. 00000 -  "table can have only one primary key"
+*Cause:    Self-evident.
+*Action:   Remove the extra primary key.
+
+Error starting at line : 187 in command -
+CREATE TABLE Module
+  (
+    Module_ID          CHAR (10) NOT NULL ,
+    Module_Name        VARCHAR2 (20) NOT NULL ,
+    Duration           NUMBER (2) NOT NULL ,
+    Date_of_Completion DATE NOT NULL
+  ) 
+Error report -
+SQL Error: ORA-00955: name is already used by an existing object
+00955. 00000 -  "name is already used by an existing object"
+*Cause:    
+*Action:
+Comment on column module.module_id 'THERE IS AN COMPULSARY MODULE TO BE COMPLETED TO BE A DRIVER OF OT, THERE ARE ALSO OTHER OPTIONAL MODULES TO BE CHOSED.' succeeded.
+
+
+Comment on column module.module_name 'NAME OF A TRAINING MODULE.' succeeded.
+
+
+Comment on column module.duration 'THE NUMBER OF DAYS OF A TRAINING MODULE ' succeeded.
+
+Error starting at line : 203 in command -
+COMMENT ON COLUMN Module.Date_of_Completion
+IS
+  'The date of a driver completing a module' 
+Error report -
+SQL Error: ORA-00904: "DATE_OF_COMPLETION": invalid identifier
+00904. 00000 -  "%s: invalid identifier"
+*Cause:    
+*Action:
+
+Error starting at line : 206 in command -
+ALTER TABLE Module ADD CONSTRAINT Module_PK PRIMARY KEY ( Module_ID ) 
+Error report -
+SQL Error: ORA-02260: table can have only one primary key
+02260. 00000 -  "table can have only one primary key"
+*Cause:    Self-evident.
+*Action:   Remove the extra primary key.
+Error starting at line : 209 in command -
+CREATE TABLE Official
+  (
+    Official_ID     CHAR (9) NOT NULL ,
+    Official_Lname  VARCHAR2 (20) NOT NULL ,
+    Officail_Fname  VARCHAR2 (20) NOT NULL ,
+    Prefer_Language VARCHAR2 (20) NOT NULL ,
+    Country         VARCHAR2 (20) NOT NULL ,
+    Role            VARCHAR2 (20) NOT NULL ,
+    Language_Code   CHAR (3) NOT NULL
+  ) 
+Error report -
+SQL Error: ORA-00955: name is already used by an existing object
+00955. 00000 -  "name is already used by an existing object"
+*Cause:    
+*Action:
+
+Comment on column official.official_id 'EACH OFFICIAL HAS UNIQUE OLYMPIC ID' succeeded.
+
+Comment on column official.official_lname 'OFFICIAL''S LAST NAME' succeeded.
+
+
+Comment on column official.officail_fname 'FIRST NAME OF AN OFFICAIL' succeeded.
+
+
+Comment on column official.prefer_language 'EVERY OFFICAIL HAS A SINGLE PREFERRED LANGUAGE' succeeded.
+
+Comment on column official.country 'THE NATION WHERE THE OFFICIAL IS FROM' succeeded.
+
+
+Comment on column official.role 'THE TITLE OF AN OFFICIAL' succeeded.
+
+
+Comment on column official.language_code 'EVERY LANGUAGE USE THE ISO639-1 TWO-CHARACTER LANGUAGE CODE,IT''S UNIQUE' succeeded.
+
+Error starting at line : 240 in command -
+CREATE UNIQUE INDEX Official__IDX ON Official
+  (
+    Language_Code ASC
+  )
+  
+Error report -
+SQL Error: ORA-00955: name is already used by an existing object
+00955. 00000 -  "name is already used by an existing object"
+*Cause:    
+*Action:
+
+Error starting at line : 245 in command -
+ALTER TABLE Official ADD CONSTRAINT Official_PK PRIMARY KEY ( Official_ID ) 
+Error report -
+SQL Error: ORA-02260: table can have only one primary key
+02260. 00000 -  "table can have only one primary key"
+*Cause:    Self-evident.
+*Action:   Remove the extra primary key.
+Table OWN_FETURE created.
+
+Comment on column own_feture.regist_no 'EVERY VEHICLE HAS A REGISTRATION NUMBER,IT''S UNIQUE.' succeeded.
+
+Comment on column own_feture.make 'THE MANUFACTURER OF THE VEHICLE' succeeded.
+
+
+Comment on column own_feture.model 'EVERY MAKER PROVIDES DIFFERENT MODELS OF VEHICLES,VEHICLES OF SAME MODEL HAVE SAME FEATURES' succeeded.
+
+Table OWN_FETURE altered.
+
+
+Error starting at line : 266 in command -
+CREATE TABLE Speak_Language
+  (
+    Driver_ID     NUMBER (7) NOT NULL ,
+    Language_Code CHAR (3) NOT NULL
+  ) 
+Error report -
+SQL Error: ORA-00955: name is already used by an existing object
+00955. 00000 -  "name is already used by an existing object"
+*Cause:    
+*Action:
+Comment on column speak_language.driver_id 'EVERY DRIVER HAS A UNIQUE ID' succeeded.
+
+
+Comment on column speak_language.language_code 'EVERY LANGUAGE USE THE ISO639-1 TWO-CHARACTER LANGUAGE CODE,IT''S UNIQUE' succeeded.
+
+
+Error starting at line : 277 in command -
+ALTER TABLE Speak_Language ADD CONSTRAINT Speak_Language_PK PRIMARY KEY ( Driver_ID, Language_Code ) 
+Error report -
+SQL Error: ORA-02260: table can have only one primary key
+02260. 00000 -  "table can have only one primary key"
+*Cause:    Self-evident.
+*Action:   Remove the extra primary key.
+Error starting at line : 280 in command -
+CREATE TABLE Vehicle
+  (
+    Regist_No        CHAR (9) NOT NULL ,
+    VIN              VARCHAR2 (20) NOT NULL ,
+    Make             CHAR (10) NOT NULL ,
+    Model            VARCHAR2 (20) NOT NULL ,
+    colour           CHAR (10) NOT NULL ,
+    Current_Odometer NUMBER (6) NOT NULL
+  ) 
+Error report -
+SQL Error: ORA-00955: name is already used by an existing object
+00955. 00000 -  "name is already used by an existing object"
+*Cause:    
+*Action:
+
+Comment on column vehicle.regist_no 'EVERY VEHICLE HAS A REGISTRATION NUMBER,IT''S UNIQUE.' succeeded.
+
+
+Comment on column vehicle.vin 'EVERY VEHICLE HAS AN ID VIN), IT''S UNIQUE' succeeded.
+
+Comment on column vehicle.make 'THE MANUFACTURER OF THE VEHICLE' succeeded.
+
+
+Comment on column vehicle.model 'EVERY MAKER PROVIDES DIFFERENT MODELS' succeeded.
+
+
+Comment on column vehicle.colour 'EVERY VEHICLE HAS SINGLE COLOUR' succeeded.
+
+Comment on column vehicle.current_odometer 'HOW MANY KM THE VEHICLE HAVS RUN.' succeeded.
+
+
+Error starting at line : 307 in command -
+ALTER TABLE Vehicle ADD CONSTRAINT Vehicle_PK PRIMARY KEY ( Regist_No ) 
+Error report -
+SQL Error: ORA-02260: table can have only one primary key
+02260. 00000 -  "table can have only one primary key"
+*Cause:    Self-evident.
+*Action:   Remove the extra primary key.
+Error starting at line : 310 in command -
+ALTER TABLE Booking ADD CONSTRAINT Booking_Driver_FK FOREIGN KEY ( Driver_ID ) REFERENCES Driver ( Driver_ID ) 
+Error report -
+SQL Error: ORA-02275: such a referential constraint already exists in the table
+02275. 00000 -  "such a referential constraint already exists in the table"
+*Cause:    Self-evident.
+*Action:   Remove the extra constraint.
+
+Error starting at line : 312 in command -
+ALTER TABLE Booking ADD CONSTRAINT Booking_Location_FK FOREIGN KEY ( Location_ID ) REFERENCES Location ( Location_ID ) 
+Error report -
+SQL Error: ORA-02275: such a referential constraint already exists in the table
+02275. 00000 -  "such a referential constraint already exists in the table"
+*Cause:    Self-evident.
+*Action:   Remove the extra constraint.
+Error starting at line : 314 in command -
+ALTER TABLE Booking ADD CONSTRAINT Booking_Location_FKv1 FOREIGN KEY ( Location_ID2 ) REFERENCES Location ( Location_ID ) 
+Error report -
+SQL Error: ORA-02275: such a referential constraint already exists in the table
+02275. 00000 -  "such a referential constraint already exists in the table"
+*Cause:    Self-evident.
+*Action:   Remove the extra constraint.
+
+Error starting at line : 316 in command -
+ALTER TABLE Booking ADD CONSTRAINT Booking_Official_FK FOREIGN KEY ( Official_ID ) REFERENCES Official ( Official_ID ) 
+Error report -
+SQL Error: ORA-02270: no matching unique or primary key for this column-list
+02270. 00000 -  "no matching unique or primary key for this column-list"
+*Cause:    A REFERENCES clause in a CREATE/ALTER TABLE statement
+           gives a column-list for which there is no matching unique or primary
+           key constraint in the referenced table.
+*Action:   Find the correct column names using the ALL_CONS_COLUMNS
+           catalog view
+Error starting at line : 318 in command -
+ALTER TABLE Booking ADD CONSTRAINT Booking_Vehicle_FK FOREIGN KEY ( Regist_No ) REFERENCES Vehicle ( Regist_No ) 
+Error report -
+SQL Error: ORA-02275: such a referential constraint already exists in the table
+02275. 00000 -  "such a referential constraint already exists in the table"
+*Cause:    Self-evident.
+*Action:   Remove the extra constraint.
+
+Error starting at line : 320 in command -
+ALTER TABLE Completion ADD CONSTRAINT Completion_Driver_FK FOREIGN KEY ( Driver_ID ) REFERENCES Driver ( Driver_ID ) 
+Error report -
+SQL Error: ORA-02275: such a referential constraint already exists in the table
+02275. 00000 -  "such a referential constraint already exists in the table"
+*Cause:    Self-evident.
+*Action:   Remove the extra constraint.
+Error starting at line : 322 in command -
+ALTER TABLE Completion ADD CONSTRAINT Completion_Module_FK FOREIGN KEY ( Module_ID ) REFERENCES Module ( Module_ID ) 
+Error report -
+SQL Error: ORA-02275: such a referential constraint already exists in the table
+02275. 00000 -  "such a referential constraint already exists in the table"
+*Cause:    Self-evident.
+*Action:   Remove the extra constraint.
+
+Error starting at line : 324 in command -
+ALTER TABLE Maintenance_Repair ADD CONSTRAINT Maintenance_Repair_Vehicle_FK FOREIGN KEY ( Regist_No ) REFERENCES Vehicle ( Regist_No ) 
+Error report -
+SQL Error: ORA-02275: such a referential constraint already exists in the table
+02275. 00000 -  "such a referential constraint already exists in the table"
+*Cause:    Self-evident.
+*Action:   Remove the extra constraint.
+Error starting at line : 326 in command -
+ALTER TABLE Official ADD CONSTRAINT Official_Language_FK FOREIGN KEY ( Language_Code ) REFERENCES Language ( Language_Code ) 
+Error report -
+SQL Error: ORA-02275: such a referential constraint already exists in the table
+02275. 00000 -  "such a referential constraint already exists in the table"
+*Cause:    Self-evident.
+*Action:   Remove the extra constraint.
+
+Table OWN_FETURE altered.
+
+Table OWN_FETURE altered.
+
+
+Error starting at line : 332 in command -
+ALTER TABLE Speak_Language ADD CONSTRAINT Speak_Language_Driver_FK FOREIGN KEY ( Driver_ID ) REFERENCES Driver ( Driver_ID ) 
+Error report -
+SQL Error: ORA-02275: such a referential constraint already exists in the table
+02275. 00000 -  "such a referential constraint already exists in the table"
+*Cause:    Self-evident.
+*Action:   Remove the extra constraint.
+Error starting at line : 334 in command -
+ALTER TABLE Speak_Language ADD CONSTRAINT Speak_Language_Language_FK FOREIGN KEY ( Language_Code ) REFERENCES Language ( Language_Code ) 
+Error report -
+SQL Error: ORA-02275: such a referential constraint already exists in the table
+02275. 00000 -  "such a referential constraint already exists in the table"
+*Cause:    Self-evident.
+*Action:   Remove the extra constraint.
+
+
+
+
+*********************************************************************************
+
+The second one is the second time running the sql file,
+It points out errors because things are already done in the first running
+
+****************************************************************************************
+
+
+
+
+
+
+
+
+
